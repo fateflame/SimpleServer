@@ -6,7 +6,7 @@ class Service:
     # 每次个建立的连接，都有一个相应的service实例对应
     __data_location = ""
     __user_list = {}
-    __cmd_dict = {'$login': 1,
+    __cmd_dict = {'$signin': 1,
                   '$signup': 2,
                   '$logout': 3}
 
